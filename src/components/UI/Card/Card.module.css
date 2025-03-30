@@ -1,0 +1,14 @@
+.card {
+  background-color: white;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 8px 15px rgba(20, 20, 20, 0.1),
+    0px 0px 4px rgba(20, 20, 20, 0.05);
+  border-radius: var(--radius, 8px);
+  padding: var(--padding, 0px);
+  margin: var(--margin, 0px);
+  width: var(--width, 40%);
+  height: var(--height, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
